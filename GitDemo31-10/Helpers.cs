@@ -12,5 +12,10 @@ namespace GitDemo31_10
         {
             return overtime * fineAmount;
         }
+
+        public static void PrintText(string text)
+        {
+            Console.WriteLine(text);
+        }
     }
 }
